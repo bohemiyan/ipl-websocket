@@ -1,0 +1,42 @@
+
+Project README
+Directory Guide
+    • backend: Contains backend code.
+    • Builds: Contains total app build files with Windows executables and Linux executables.
+    • ipl_client: Contains React frontend code.
+    
+System Requirements
+    • Node.js 18+
+    • MongoDB
+    
+How to Start the Project
+    1. To run the total project:
+        ◦ Navigate to the backend folder.
+        ◦ Run npm i to install dependencies.
+        ◦ Run npm run dev.
+        ◦ Backend serves frontend build files at localhost:9696. No need to start the frontend separately.
+        
+        
+    2. To start the frontend separately:
+        ◦ Go to the frontend folder.
+        ◦ Run npm start. It will start on port 3000.
+    3. You can run executables in the Builds folder directly.
+    
+    
+Configuration
+    1. Backend Configuration:
+        ◦ Backend configuration is handled via the .env file.
+    2. Frontend Configuration:
+        ◦ Frontend configuration can be found at src/components/api/apiconfig.js.
+        
+App Description
+    • Upon opening, the application will display a login page.
+    • Users can create an account from the login page. By default, a new account is created as a client account. To create an admin account, select 'admin' during the account creation process.
+    
+    • Testing: Open two browser windows, one logged in as an admin and the other as a client. Editing from the admin account will notify the client if they subscribe to the team.
+
+
+Additional Notes
+    • Ensure Node.js 18+ and MongoDB are properly installed and configured.
+    • For any further assistance or issues, refer to the project documentation or contact the project maintainers.
+
