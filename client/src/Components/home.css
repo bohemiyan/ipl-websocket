@@ -1,0 +1,30 @@
+.HomeContainer {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 60px 1fr; /* Adjust grid template rows based on the navbar height */
+  }
+  
+  .navbarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+  }
+  
+  .bodycontainer {
+    top: 65px;
+    position: fixed;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    width: calc(100% );
+
+  }
+  
+
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

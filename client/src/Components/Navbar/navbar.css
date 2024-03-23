@@ -1,0 +1,120 @@
+.navbarContainer {
+  height: 65px;
+  background-color: rgba(113, 144, 170, 0.842);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 0 2px rgba(51, 91, 167, 0.144);
+}
+.LogoCont {
+  max-width: 25%;
+  margin-left: 2%;
+}
+.LogoCont img {
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  max-height: 70px; /* Set a maximum height for the image */
+  height: auto;
+}
+.organization {
+  color: rgb(212, 220, 228);
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 18%;
+  margin-right: 8%;
+  cursor: pointer;
+}
+
+.menus i {
+  /* padding: 15px; */
+  /* margin: 10px; */
+  color: rgb(245, 238, 238);
+  width: 20%;
+}
+.menus i:hover {
+  color: rgb(62, 82, 99);
+}
+
+.active {
+  background-color: #408ed89c;
+}
+.userIcon {
+  padding-bottom: 15px;
+}
+.number-bubble {
+  background-color: #f16565;
+  color: #fff;
+  text-align: center;
+  min-width: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 10px;
+  top: -3px;
+  left: 32px;
+}
+
+.dropdown {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 88%;
+  transform: translateX(-50%);
+  min-width: 20%;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #5e91bd;
+  font-size: large;
+  background-color: #4e4f64;
+  color: white;
+  font-weight: 500;
+}
+
+.dropdown .dropdown-userData {
+  display: flex;
+}
+
+.dropdown p {
+  margin: 0;
+  padding: 5px 0 5px 0;
+}
+
+.navbarContainer .dropdown .button-17 {
+  color: white;
+  background-color: #39648a !important;
+}
+
+.navbarContainer .dropdown .button-17:hover {
+  background-color: #1b2c3b !important;
+}
+
+#LoginButton,
+#LogoutButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  padding: 25px;
+  transition: background-color 0.3s;
+}
+
+#LoginButton i,
+#LogoutButton i {
+  margin: 10px;
+}
+
+#LoginButton:hover {
+  color: #144eec;
+  background-color: rgba(156, 148, 231, 0.199);
+}
+
+#LogoutButton:hover {
+  color: #ec1414;
+  background-color: rgba(231, 148, 148, 0.199);
+}
